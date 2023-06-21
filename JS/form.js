@@ -10,7 +10,7 @@ function validateEmail(email) {
   
     if (validateEmail(email)) {
       alert('Correo electrónico enviado correctamente.');
-      location.href = "/index.html";
+      location.href = "../index.html";
     } else {
       alert('Por favor ingrese un correo electrónico válido.');
     }
